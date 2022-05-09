@@ -1,0 +1,3 @@
+/home/bomberman/code/doot_example/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/bomberman/code/doot_example/cpp/build/CMakeFiles/edit_cache.dir
+/home/bomberman/code/doot_example/cpp/build/CMakeFiles/doot.dir

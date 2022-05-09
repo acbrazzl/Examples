@@ -1,0 +1,5 @@
+CC=gcc
+CFLAGS=-I.
+
+doot: doot.o 
+    $(CC) -o doot doot.o
