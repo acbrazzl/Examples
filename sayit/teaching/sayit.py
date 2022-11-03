@@ -21,10 +21,15 @@ def main(args):
     logger.info('Starting Sayit...')
     logger.debug(f'Initialized with args:{args}')
 
+    #TODO: (1) add arg to print n-number of times
     say(args.blurb)
-
+    
+    #TODO: (2) implement some unit tests!
+    
+    #TODO: (3) implement sayCow with arg
 
 def say(blurb):
+    if blurb is None: sys.exit(1)
     print(blurb)
 
 def get_parser():
@@ -40,6 +45,5 @@ def get_parser():
 def init_logs(args):
     logging.basicConfig(level=args.log_level)
     
-
 if __name__ == '__main__':
     main(args=get_parser().parse_args())
